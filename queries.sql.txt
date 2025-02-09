@@ -1,3 +1,4 @@
+// SQL Queries for Insights
 -- Find the average salary by department
 SELECT Department, AVG(Salary) AS AvgSalary
 FROM Employees

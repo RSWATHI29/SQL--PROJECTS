@@ -1,0 +1,9 @@
+-- Table Structures
+CREATE TABLE Employees (
+    EmployeeID INT PRIMARY KEY,
+    Name VARCHAR(100),
+    Age INT,
+    Department VARCHAR(50),
+    Salary DECIMAL(10,2),
+    PerformanceRating INT
+);

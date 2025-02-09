@@ -1,0 +1,9 @@
+-- Find the average salary by department
+SELECT Department, AVG(Salary) AS AvgSalary
+FROM Employees
+GROUP BY Department;
+
+-- Rank employees based on performance
+SELECT Name, Department, Salary, PerformanceRating,
+       RANK() OVER (PARTITION BY Department ORDER BY PerformanceRating DESC) AS Rank
+FROM Employees;

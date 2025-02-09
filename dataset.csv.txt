@@ -1,0 +1,5 @@
+// Sample Data
+EmployeeID,Name,    Age, Department,Salary,PerformanceRating
+1,         Arun,    28,  IT,        60000,         4
+2,         Bala,    35,  HR,        50000,         3
+3,         Charlie, 30,  Finance,   70000,         5
